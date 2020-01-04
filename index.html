@@ -3,201 +3,331 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site of the REMDEAN application">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site of the REMDEAN application. RemDeAn makes possible controlling a desktop device from Android.">
+    <meta name="keywords" content="RemDeAn, control, control, desktop, device, Android, MacOS, Windows, Linux, download, convenient">
     <meta name="author" content="Lyuboslav Alexandrov/Gabriel Kanev">
 	<meta name="google-site-verification" content="KHt1jQWMnvhxlcXlqA91NgIRXW9wbeD0glk2OZWqiwE" />
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
-	<link rel="icon" href="">
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <title>RemDeAn - The smart choice</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Squad theme CSS -->
     <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
 	
 </head>
 
 <body data-spy="scroll">
 
-<div class="container">
-			<ul id="gn-menu" class="gn-menu-main">
-				<li class="gn-trigger">
-					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-					<nav class="gn-menu-wrapper">
-						<div class="gn-scroller">
-							<ul class="gn-menu">
-								<li>
-									<a href="index.html"><i class="fa fa-home"></i>Home</a>
-								</li>
-								
-								<li>
-									<a href="index.html#service"><i class="fa fa-cogs"></i>Services</a>
-								</li>
-								<li>
-									<a href="index.html#contact"><i class="fa fa-inbox"></i>Contact</a>
-								</li>
-								<li>
-									<a href="tos.html"><i class="fa fa-book"></i>Terms of service</a>
-								</li>
-							</ul>
-						</div><!-- /gn-scroller -->
-					</nav>
-				</li>
-				<li><a href="index.html">REMDEAN</a></li>
-				<li><ul class="company-social">
-                            <li class="social-facebook"><a href="https://www.facebook.com/remdean" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li class="social-twitter"><a href="https://twitter.com/remdesan" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li class="social-google"><a href="https://google.com/+REMDEANgithubioAPP" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>	</li>
-			</ul>
-	</div>
-
+	<header class="container">
+		<ul id="gn-menu" class="gn-menu-main">
+			<li class="gn-trigger">
+				<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller">
+						<ul class="gn-menu">
+							<li>
+								<a href="index.html"><i class="fa fa-home"></i>Home</a>
+							</li>
+							
+							<li>
+								<a href="index.html#services"><i class="fa fa-cogs"></i>Services</a>
+							</li>
+							<li>
+								<a href="index.html#news"><i class="fa fa-newspaper-o"></i>News</a>
+							</li>
+							<li>
+								<a href="index.html#contact"><i class="fa fa-inbox"></i>Contact</a>
+							</li>
+							<li>
+								<a href="tos.html"><i class="fa fa-book"></i>Terms of service</a>
+							</li>
+						</ul>
+					</div><!-- /gn-scroller -->
+				</nav>
+			</li>
+			<li><a href="index.html"><img src="./img/logo.png" alt="Remdean logo" class="img h-100 p-2 d-none d-sm-inline" /> REMDEAN</a></li>
+			<li>
+				<ul class="company-social">
+	                <li class="social-facebook"><a href="https://www.facebook.com/remdean" target="_blank"><i class="fa fa-facebook"></i></a></li>
+	                <li class="social-twitter"><a href="https://twitter.com/remdesan" target="_blank"><i class="fa fa-twitter"></i></a></li>
+	                <li class="social-google"><a href="#!" onclick="alert('Sorry, Google+ died! :(')"><i class="fa fa-google-plus"></i></a></li>
+	            </ul>
+        	</li>
+		</ul>	
+	</header>
+	<main>
 	<!-- Section: intro -->
     <section id="intro" class="intro">
-		<div class="slogan container">
-			<h1>This is RemDeAn</h1>
-			<p>just a Remote Desktop on Android</p>
-			<div class="row download col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
-			<a href="https://remdean.github.io/server.jar" class="btn col-md-6 col-xs-12"><div class="col-md-12 col-xs-12 bd"><i class="fa fa-download fa-2x col-md-2 col-xs-2"></i><div class="col-md-10 col-xs-10">Download the desktop application</div></div></a>
-			<a href="https://play.google.com/store/apps/details?id=com.mrgkanev.remdean" class="btn col-md-6 col-xs-12"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" class="col-md-12 col-xs-12"/></a>
+    	<div class="wrapper h-100">
+			<div class="slogan container h-100 text-center">
+				<div class="row h-100 justify-content-center align-items-center">
+					<div class="container-fluid row h-50 justify-content-center align-items-center">
+						<div class="col-12">
+							<h1 class="text-uppercase">This is RemDeAn</h1>
+							<p>just a Remote Desktop on Android</p>
+						</div>
+						<div class="col-12 row  download align-items-center justify-content-center">
+							<a href="./server.jar" class="col-sm-3 py-1 mx-4 bd row justify-content-center align-items-center">
+								<i class="fa fa-download fa-2x col-2 p-0"></i>
+								<p class="mb-0 px-1 col-10">Download the desktop application</p>
+							</a>
+							<!-- https://play.google.com/store/apps/details?id=com.mrgkanev.remdean -->
+							<a href="#!" class="col-sm-7 col-md-5 col-lg-3 w-100"><img alt="Get it on Google Play" src="./img/en_badge_web_generic.png" class="col-md-12 col-xs-12"/></a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>	
     </section>
 	<!-- /Section: intro -->
 
 	<!-- Section: services -->
-    <section id="service" class="home-section text-center">
-	
-			<div class="heading-about marginbot-50">
-			<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-		
-					<div class="section-heading">
-					<h2>Your potential abilities</h2>
-					<p>You have the full control of your computer in your fingertips.</p>
-					</div>
-			
+    <section id="services" class="text-center bg-gray">
+		<div class="container-fluid h-100">
+			<div class="row py-3 py-md-0 h-100 justify-content-center align-items-center">
+				<div class="col-12">
+					<h2 class="text-uppercase">Your potential abilities</h2>
+					<p class="mb-0">You have the full control of your computer in your fingertips.</p>
 				</div>
-			</div>
+				 <div class="row col-12">
+		            <div class="col-md-3">
+					
+		                <div class="service-box">
+							<div class="service-icon">
+								<i class="fa fa-keyboard-o fa-3x"></i>
+							</div>
+							<div class="service-desc">
+								<h5 class="text-uppercase">Mouse</h5>
+								<p>Control the both mouse and keyboard while you see your display at the same time.</p>
+							</div>
+		                </div>
+			
+		            </div>
+					<div class="col-md-3">
+			
+		                <div class="service-box">
+							<div class="service-icon">
+								<i class="fa fa-files-o fa-3x"></i>
+							</div>
+							<div class="service-desc">
+								<h5 class="text-uppercase">File Manager</h5>
+								<p>Manage your files whanever and whatever you want.</p>
+							</div>
+		                </div>
+
+		            </div>
+					<div class="col-md-3 pr-1">
+
+		                <div class="service-box">
+							<div class="service-icon">
+								<i class="fa fa-play-circle-o fa-3x"></i>
+							</div>
+							<div class="service-desc">
+								<h5 class="text-uppercase">Media</h5>
+								<p>Play and mix your favourite music, movies and many more kinds of media.</p>
+							</div>
+		                </div>
+					
+		            </div>
+					<div class="col-md-3 pl-1">
+			
+		                <div class="service-box">
+							<div class="service-icon">
+								<i class="fa fa-file-powerpoint-o fa-3x"></i>
+							</div>
+							<div class="service-desc">
+								<h5 class="text-uppercase">Presentations</h5>
+								<p>Take the full control of your presentations remotely. Very useful on public presentations.</p>
+							</div>
+		                </div>
+					
+		            </div>
+		        </div>
 			</div>
 		</div>
-		<div class="container">
-        <div class="row">
-            <div class="col-sm-3 col-md-3">
-			
-                <div class="service-box">
-					<div class="service-icon">
-						<i class="fa fa-keyboard-o fa-3x"></i>
-					</div>
-					<div class="service-desc">
-						<h5>Mouse</h5>
-						<p>Control the both mouse and keyboard while you see your display at the same time.</p>
-					</div>
-                </div>
-	
-            </div>
-			<div class="col-sm-3 col-md-3">
-	
-                <div class="service-box">
-					<div class="service-icon">
-						<i class="fa fa-files-o fa-3x"></i>
-					</div>
-					<div class="service-desc">
-						<h5>File Manager</h5>
-						<p>Manage your files whanever and whatever you want.</p>
-					</div>
-                </div>
-
-            </div>
-			<div class="col-sm-3 col-md-3">
-
-                <div class="service-box">
-					<div class="service-icon">
-						<i class="fa fa-play-circle-o fa-3x"></i>
-					</div>
-					<div class="service-desc">
-						<h5>Media</h5>
-						<p>Play and mix your favourite music, movies and many more kinds of media.</p>
-					</div>
-                </div>
-			
-            </div>
-			<div class="col-sm-3 col-md-3">
-	
-                <div class="service-box">
-					<div class="service-icon">
-						<i class="fa fa-file-powerpoint-o fa-3x"></i>
-					</div>
-					<div class="service-desc">
-						<h5>Presentations</h5>
-						<p>Take the full control of your presentations remotely. Very useful on public presentations.</p>
-					</div>
-                </div>
-			
-            </div>
-        </div>		
-		</div>
+       	
 	</section>
 	<!-- /Section: services -->
-	
-	<!-- Section: contact -->
-    <section id="contact" class="home-section text-center  bg-gray">
-		<div class="heading-contact marginbot-50">
-			<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-	
-					<div class="section-heading">
-					<h2>Get in touch</h2>
-					<p>We will be pleased to read feedback, reccomendation or complaint. It will be always valuable for us and will help to improve our service.</p>
+	<!-- Section: news -->
+	 <section id="news">
+		<div class="container-fluid h-100">
+			<div class="row h-100 justify-content-center align-items-center">
+				<div class="container-fluid row py-3 py-md-0 h-75 justify-content-center align-items-center">
+					<div class="col-12 text-center">
+						<h1>Latest updates</h1>
 					</div>
-				
+					<div class="col-12 row">
+		                <div class="card col-sm-4 p-4">
+		                	<article>
+		                		<figure>
+		                			<img src="./img/launch.jpeg" class="card-img-top h-50" alt="Image">
+		                		</figure>
+								<div class="card-body p-0">
+			                        <header>
+										<h4 class="p-3">RemDeAn first launch</h4>
+									</header>
+									<div class="p-3">
+										
+										<p>
+				                            Our application is going to be finally launched soon. Keep in touch...
+				                        </p>
+										<div class="row">
+				                    	</div>
+					                        <small class="author float-right">
+					                            Lyuboslav Alexandrov
+					                        </small>
+					                        <small class="float-left">
+					                           01.04.2016 16:04  
+					                        </small><br />
+				                        <footer class="pt-2">
+				                            <div class="pull-right">
+				                                <a class="btn btn-primary btn-xs" href="launch.html">Read more &raquo;</a>
+				                            </div>
+				                        </footer>
+										
+										<a href="launch.html" class="stretched-link"></a>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="card col-sm-4 p-4">
+		                	<article>
+		                		<figure>
+		                			<img src="./img/hexagon.png" class="card-img-top h-50" alt="Image">
+		                		</figure>
+								<div class="card-body p-0">
+			                        <header>
+										<h4 class="p-3">A refactoring expected</h4>
+									</header>
+									<div class="p-3">
+										<p>
+				                            The both client and server applications are being refactored...
+				                        </p>
+										<div class="row">
+				                    	</div>
+					                        <small class="author float-right">
+					                            Lyuboslav Alexandrov
+					                        </small>
+					                        <small class="float-left">
+					                           23.11.2019 17:51  
+					                        </small><br />
+				                        <footer class="pt-2">
+				                            <div class="pull-right">
+				                                <a class="btn btn-primary btn-xs" href="launch.html">Read more &raquo;</a>
+				                            </div>
+				                        </footer>
+										
+										<a href="refactoring.html" class="stretched-link"></a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
 				</div>
 			</div>
-			</div>
 		</div>
-		<div class="container">
-
-    <div class="row">
-        <div class="col-lg-5 col-lg-offset-4">
-            <div class="widget-contact row">
-				 
-				<div class="col-lg-12">
-				 <div class="col-lg-2"><strong><p>Email:</p></strong></div>
+	</section>
+	<!-- /Section: news -->
+	<!-- Section: contact -->
+    <section id="contact" class="text-center  bg-gray">		
+		<div class="container h-100">
+			<div class="row h-100 py-3 py-md-0 justify-content-center align-items-center">
+				<div class="col-12">
+					<h2>Get in touch</h2>
+					<p>We will be pleased to read feedback, reccomendation or complaint. It will be always valuable for us and will help to improve our service.</p>
+				</div>
+				<form action="#" method="POST" class="col-8 text-left">
+					<div class="form-group row align-items-center">
+						<label for="from" class="col-md-2">From: </label>
+						<input type="email" name="from" id="from" class="form-control col-md-10">
+					</div>
+					<div class="form-group row align-items-center">
+						<label for="subject" class="col-md-2">Subject: </label>
+						<input type="text" name="subject" id="subject" class="form-control col-md-10">
+					</div>
+					<div class="form-group row align-items-center">
+						<label for="mail" class="col-md-2">Text: </label>
+						<textarea name="mail" id="mail" class="form-control col-md-10" rows="3"></textarea>
+					</div>
+					 <button type="submit" class="btn btn-primary float-right">Submit</button>
+				</form>
+				<div class="col-12 row">
+				 	<div class="col-lg-2"><strong><p>Email:</p></strong></div>
 					<div class="col-lg-5"><a href="mailto:alexandrovcorp@yahoo.com">alexandrovcorp@yahoo.com</a></div>
 				    <div class="col-lg-5"><a href="mailto:contact@mrgkanev.eu">contact@mrgkanev.eu</a></div>
+				</div>
 			</div>
-			</div>	
-        </div>
-
-    </div>	
-
-		</div>
 	</section>
 	<!-- /Section: contact -->
 
+		
+	</main>
 	<footer>
-		<div class="container">
+		<section class="container-fluid">
+			<div class="row justify-content-around">
+				<section class="col-md-3">
+					<nav class="text-left">
+						<h3 class="lead text-light text-uppercase">Downloads</h3>
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a href="./server.jar" class="">
+									<p><i class="fa fa-download fa-2x p-0 align-middle"></i> Download RemDeAn server</p>
+								</a>
+							</li>
+							
+							<li class="nav-item">
+								<a href="#!" class="">
+									<p><img alt="Get it on Google Play" src="./img/gstore_logo.png"  class="img img-fluid" /> Get the mobile application</p>
+								</a>
+							</li>
+						</ul>
+					</nav>
+
+				</section>
+				<section class="col-md-3">
+					<nav class="text-left">
+						<h3 class="lead text-light text-uppercase">Navigation</h3>
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link">Home</a>
+							</li>
+							
+							<li class="nav-item">
+								<a href="index.html#services" class="nav-link">Services</a>
+							</li>
+							<li class="nav-item">
+								<a href="index.html#news" class="nav-link">News</a>
+							</li>
+							<li class="nav-item">
+								<a href="index.html#contact" class="nav-link">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a href="tos.html" class="nav-link">Terms of service</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
+			</div>	
+		</section>
+		<section class="container mt-4">
 			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<p>Copyright &copy; <script>document.write(new Date().getFullYear()+".")</script> REMDEAN</p>
+				<div class="col-md-12">
+					<h5 class="text-light">Copyright &copy; <script>document.write(new Date().getFullYear()+".")</script> REMDEAN</h5>
 				</div>
 			</div>	
-		</div>
+		</section>
 	</footer>
 
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/gnmenu.js"></script>
-	<script src="js/stellar.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script>
 
